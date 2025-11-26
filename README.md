@@ -1,8 +1,8 @@
 # Disfigured
 
-A modern, interactive website showcasing a peer support platform proposal for people with facial disfigurement. Built as an academic project exploring digital community design, accessibility, and online support systems.
+<img width="928" height="972" alt="disfigured" src="https://github.com/user-attachments/assets/e88e65a4-cff9-49cb-9fda-8f1b84b2b7b4" />
 
-<img width="1728" height="716" alt="disfigured" src="https://github.com/user-attachments/assets/2030423d-5c1d-4297-8273-68ca696cc008" />
+A modern, interactive website showcasing a peer support platform proposal for people with facial disfigurement. Built as an academic project exploring digital community design, accessibility, and online support systems.
 
 ## 📋 About
 
