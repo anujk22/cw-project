@@ -1,0 +1,26 @@
+@plugin "tailwindcss-animate";
+@custom-variant dark (&:is(.dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make sure the body lets Tailwind control background/text */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #020617; /* deep navy/black */
+}
+
+/* Simple banner container for the ASCII title */
+.ascii-banner {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
