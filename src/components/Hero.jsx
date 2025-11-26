@@ -1,6 +1,18 @@
+import { useState, useEffect } from 'react';
 import ASCIIText from './ASCIIText';
 
 function Hero() {
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    // Small delay to ensure layout is calculated
+    const timer = setTimeout(() => {
+      setIsReady(true);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-black">
       {/* Animated rainbow glow effect */}
@@ -9,16 +21,18 @@ function Hero() {
       </div>
       
       <div className="w-full max-w-6xl px-6 relative z-10">
-        {/* ASCII Title Container - Smaller text with overflow visible */}
+        {/* ASCII Title Container - Only render when ready */}
         <div className="relative w-full mx-auto" style={{ height: '200px', maxWidth: '1000px', overflow: 'visible' }}>
-          <ASCIIText
-            text="disfigured"
-            asciiFontSize={6}
-            textFontSize={320}
-            textColor="#fdf9f3"
-            planeBaseHeight={13}
-            enableWaves={false}
-          />
+          {isReady && (
+            <ASCIIText
+              text="disfigured"
+              asciiFontSize={5}
+              textFontSize={200}
+              textColor="#fdf9f3"
+              planeBaseHeight={8}
+              enableWaves={false}
+            />
+          )}
         </div>
         
         <div className="text-center mt-20 space-y-4">
