@@ -4,7 +4,9 @@ function Problem() {
       <div className="max-w-4xl mx-auto">
         {/* Section Label */}
         <div className="inline-block mb-6 px-4 py-2 bg-gradient-to-r from-pink-500/10 to-red-500/10 border border-pink-500/30 rounded-full">
-          <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">The Problem</span>
+          <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">
+            The Problem
+          </span>
         </div>
         
         {/* Section Title */}
@@ -15,11 +17,11 @@ function Problem() {
         {/* Content */}
         <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
           <p>
-            Many people are referred to therapy when their appearance-related distress becomes overwhelming, but cost, location, and the vulnerability of talking face-to-face keep a lot of them from ever making that first appointment. Losing the ability to "blend in" can make every social interaction feel like a test, so even seeking help starts to feel like another risk instead of a relief.
+            Many people are referred to therapy when their appearance-related distress becomes overwhelming, but cost, location, and the vulnerability of talking face-to-face keep a lot of them from ever making that first appointment. Losing the ability to "blend in" can make every social interaction feel like a test, so even seeking help starts to feel like another risk instead of a relief (Norman).
           </p>
           
           <p>
-            Research on ableist microaggressions shows that people with visible differences are routinely read as angry, drunk, unstable, or morally suspect based purely on how their faces move or sit at rest. These patterns are especially sharp in conditions like acquired synkinesis, where involuntary facial movements are misread as hostility or disrespect, and that misreading then gets blamed on the person instead of the impairment. Any online space meant to offer support has to recognize this background harm and make sure it is not quietly reproduced inside the community.
+            Research on ableist microaggressions shows that people with visible differences are routinely read as angry, drunk, unstable, or morally suspect based purely on how their faces move or sit at rest. These patterns are especially sharp in conditions like acquired synkinesis, where involuntary facial movements are misread as hostility or disrespect, and that misreading then gets blamed on the person instead of the impairment. Any online space meant to offer support has to recognize this background harm and make sure it is not quietly reproduced inside the community (Heung et al.).
           </p>
         </div>
         

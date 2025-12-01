@@ -4,7 +4,9 @@ function Design() {
       <div className="max-w-4xl mx-auto">
         {/* Section Label */}
         <div className="inline-block mb-6 px-4 py-2 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/30 rounded-full">
-          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">Design & Safeguards</span>
+          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">
+            Design & Safeguards
+          </span>
         </div>
         
         {/* Section Title */}
@@ -26,7 +28,7 @@ function Design() {
             </div>
             <h3 className="text-2xl font-semibold text-white mb-3">Pre-posting filters</h3>
             <p className="text-gray-300 leading-relaxed">
-              Automated filters flag or block slurs, appearance-shaming language, and obvious harassment before a post or comment goes live. This reduces the chance that the most direct forms of abuse ever reach their target.
+              Automated filters flag or block slurs, appearance-shaming language, and obvious harassment before a post or comment goes live. This reduces the chance that the most direct forms of abuse ever reach their target (Dobson).
             </p>
           </div>
           
@@ -37,7 +39,7 @@ function Design() {
             </div>
             <h3 className="text-2xl font-semibold text-white mb-3">Explicit community norms</h3>
             <p className="text-gray-300 leading-relaxed">
-              The site publishes clear expectations around how to talk about appearance, disability, and distress. Users agree to these norms during onboarding; examples and "do/don't" language make the expectations concrete instead of vague.
+              The site publishes clear expectations around how to talk about appearance, disability, and distress. Users agree to these norms during onboarding; examples and "do/don't" language make the expectations concrete instead of vague (Dobson).
             </p>
           </div>
           
@@ -48,7 +50,7 @@ function Design() {
             </div>
             <h3 className="text-2xl font-semibold text-white mb-3">Reputation-based moderators</h3>
             <p className="text-gray-300 leading-relaxed">
-              Moderators are drawn from active community members who have consistently modeled empathy and careful reading of context. They review reports, step into heated threads, and make removal or ban decisions using public guidelines so enforcement feels predictable instead of arbitrary.
+              Moderators are drawn from active community members who have consistently modeled empathy and careful reading of context. They review reports, step into heated threads, and make removal or ban decisions using public guidelines so enforcement feels predictable instead of arbitrary (Wachs).
             </p>
           </div>
         </div>
@@ -64,7 +66,7 @@ function Design() {
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">The Anonymity Tradeoff</h3>
               <p className="text-gray-300 leading-relaxed">
-                Because anonymity can make it easier to harm others, the platform is honest about the tradeoff: privacy is preserved through pseudonyms and limited data collection, but accountability is sustained through report tools, escalating consequences, and, in severe cases, permanent removal.
+                Because anonymity can make it easier to harm others, the platform is honest about the tradeoff: privacy is preserved through pseudonyms and limited data collection, but accountability is sustained through report tools, escalating consequences, and, in severe cases, permanent removal (Dobson; Wachs).
               </p>
             </div>
           </div>

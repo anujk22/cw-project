@@ -4,7 +4,9 @@ function Solution() {
       <div className="max-w-4xl mx-auto">
         {/* Section Label */}
         <div className="inline-block mb-6 px-4 py-2 bg-gradient-to-r from-green-500/10 to-cyan-500/10 border border-green-500/30 rounded-full">
-          <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">The Solution</span>
+          <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent text-sm font-semibold tracking-wider uppercase">
+            The Solution
+          </span>
         </div>
         
         {/* Section Title */}
@@ -27,7 +29,9 @@ function Solution() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Low-barrier access</h3>
-              <p className="text-gray-400">Users can sign up under a pseudonym and participate without revealing legal names or identifiable details, lowering the emotional entry cost while still allowing some continuity over time.</p>
+              <p className="text-gray-400">
+                Users can sign up under a pseudonym and participate without revealing legal names or identifiable details, lowering the emotional entry cost while still allowing some continuity over time.
+              </p>
             </div>
           </div>
           
@@ -39,7 +43,9 @@ function Solution() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Experience-centered posts</h3>
-              <p className="text-gray-400">Members narrate concrete situations—such as a job interview, a medical waiting room, or a commute—rather than speaking only in abstractions about "confidence" or "self-esteem."</p>
+              <p className="text-gray-400">
+                Members narrate concrete situations—such as a job interview, a medical waiting room, or a commute—rather than speaking only in abstractions about "confidence" or "self-esteem."
+              </p>
             </div>
           </div>
           
@@ -51,7 +57,9 @@ function Solution() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Practical skill-sharing</h3>
-              <p className="text-gray-400">Replies focus on things like sample phrases, rehearsal techniques for anticipated questions, and ways to redirect or shut down intrusive comments without putting all the blame back on the person targeted.</p>
+              <p className="text-gray-400">
+                Replies focus on things like sample phrases, rehearsal techniques for anticipated questions, and ways to redirect or shut down intrusive comments without putting all the blame back on the person targeted.
+              </p>
             </div>
           </div>
           
@@ -63,7 +71,9 @@ function Solution() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Guided reflection tools</h3>
-              <p className="text-gray-400">Optional prompts help users move beyond venting into naming what happened, how it landed emotionally, and what they might want to try if a similar moment comes up again.</p>
+              <p className="text-gray-400">
+                Optional prompts help users move beyond venting into naming what happened, how it landed emotionally, and what they might want to try if a similar moment comes up again.
+              </p>
             </div>
           </div>
         </div>
@@ -72,7 +82,7 @@ function Solution() {
         <div className="bg-gradient-to-br from-cyan-500/5 via-blue-500/5 to-purple-500/5 border border-cyan-500/20 rounded-2xl p-8">
           <h3 className="text-2xl font-semibold text-white mb-4">Moderation Philosophy</h3>
           <p className="text-gray-300 leading-relaxed">
-            The moderation philosophy is guided by a question: how can a community spread knowledge and awareness without accidentally feeding new stereotypes or reinforcing harmful narratives about visibly different bodies? The platform's answer is to treat moderation as an ongoing practice, not a one-time rules page.
+            The moderation philosophy is guided by a question: how can a community spread knowledge and awareness without accidentally feeding new stereotypes or reinforcing harmful narratives about visibly different bodies? The platform's answer is to treat moderation as an ongoing practice, not a one-time rules page (Dobson; Wachs).
           </p>
         </div>
       </div>
