@@ -1,6 +1,12 @@
 function Citations() {
   const citations = [
     {
+      author: "Norman, Emma Meredith",
+      title: "Facing Disfigurement: Stigma and the Emotional Impact of Visible Difference",
+      publisher: "Routledge",
+      year: "2020"
+    },
+    {
       author: "Dobson, Amy Shields",
       title: "Postfeminism, Personhood, and Popular Culture",
       publisher: "Lexington Books",
@@ -11,26 +17,6 @@ function Citations() {
       title: "Nothing Micro About It: Examining Ableist Microaggressions on Social Media",
       publisher: "Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility",
       year: "2022"
-    },
-    {
-      author: "Meg",
-      title: "White Mask Rests on Dead Branches",
-      publisher: "Unsplash",
-      year: "2023",
-      url: "unsplash.com/photos/a-white-mask-rests-on-dead-branches-bkk-j21pOVI"
-    },
-    {
-      author: "Norman, Emma Meredith",
-      title: "Facing Disfigurement: Stigma and the Emotional Impact of Visible Difference",
-      publisher: "Routledge",
-      year: "2020"
-    },
-    {
-      author: "Papaioannou, Kostas",
-      title: "Silhouette Photo of People",
-      publisher: "Unsplash",
-      year: "2017",
-      url: "unsplash.com/photos/silhouette-photo-of-people-tysecUm5HJA"
     },
     {
       author: "Smit, Dorien, et al.",
@@ -44,6 +30,20 @@ function Citations() {
       title: "Levelling the Playing Field: Harnessing the Power of Online Communities for Disability Advocacy",
       publisher: "Journal of Disability Studies Quarterly, vol. 40, no. 2",
       year: "2020"
+    },
+    {
+      author: "Papaioannou, Kostas",
+      title: "Silhouette Photo of People",
+      publisher: "Unsplash",
+      year: "2017",
+      url: "unsplash.com/photos/silhouette-photo-of-people-tysecUm5HJA"
+    },
+    {
+      author: "Meg",
+      title: "White Mask Rests on Dead Branches",
+      publisher: "Unsplash",
+      year: "2023",
+      url: "unsplash.com/photos/a-white-mask-rests-on-dead-branches-bkk-j21pOVI"
     },
     {
       author: "Kaja Kadlecova",
